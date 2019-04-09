@@ -1,6 +1,6 @@
 const dotenv = require('dotenv')
 const { join } = require('path')
-dotenv.config({ path: join(__dirname, '.env') })
+dotenv.config()
 
 const port = process.env.PORT || 3003
 

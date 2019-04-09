@@ -1,12 +1,11 @@
 import dotenv from 'dotenv'
 import { DateTime } from 'luxon'
 import 'consolecolors'
-import { join } from 'path'
 
 const config = {}
 const logger = {}
 
-dotenv.config({ path: join(__dirname, '.env') })
+dotenv.config()
 
 /** ADD HERE YOUR ENV VARIABLES */
 config.ENV = process.env.ENVIRONMENT || 'test'
