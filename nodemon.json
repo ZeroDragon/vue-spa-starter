@@ -1,0 +1,7 @@
+{
+  "ext": "js,json",
+  "ignore": [
+    "./src/app/",
+    "./dist"
+  ]
+}
