@@ -65,7 +65,9 @@ export default {
   plugins: [
     new VueLoaderPlugin(),
     new webpack.DefinePlugin({
+      /** ADD HERE RUNTIME ENV VARIABLES */
       ENV: JSON.stringify(config.ENV)
+      /** END OF RUNTIME ENV VARIABLES */
     })
   ]
 }

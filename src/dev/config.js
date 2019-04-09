@@ -7,8 +7,11 @@ const config = {}
 const logger = {}
 
 dotenv.config({ path: join(__dirname, '.env') })
+
+/** ADD HERE YOUR ENV VARIABLES */
 config.ENV = process.env.ENVIRONMENT || 'test'
 config.HTTP_SERVER_PORT = process.env.PORT || 3003
+/** END OF ENV VARIABLES DEFINITION */
 
 const loggerTypes = {
   debug: 'green',
