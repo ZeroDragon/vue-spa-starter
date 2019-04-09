@@ -43,7 +43,7 @@ If case of you don't want to use the autmatic setup or don't want to use browser
 **Start browsersync server**  
 You can also start browsersync server alone typing `make dev.browsersync`
 
-**Building distributions**
+**Building distributions**  
 When ready to publish, you can type `make build` to build all compiled and bundled files to `/dist`. That distribution does not require any specific server and can be mounted with nginx or apache. **IMPORTANT** you might need to update the `.env` file for production
 
 **Testing build**  
